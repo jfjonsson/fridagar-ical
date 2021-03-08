@@ -1,0 +1,15 @@
+{
+  "name": "fridagar-ical",
+  "version": "1.0.0",
+  "description": "Node application that generates ical events for all national holidays and important dates in Iceland",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jón Freysteinn Jónsson",
+  "license": "ISC",
+  "dependencies": {
+    "fridagar": "^3.1.1",
+    "ical-generator": "^1.15.4"
+  }
+}
